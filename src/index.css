@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype'), url('./fonts/Roboto-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype'), url('./fonts/Roboto-Bold.ttf') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('./fonts/Roboto-Medium.ttf') format('truetype'), url('./fonts/Roboto-Medium.ttf') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./fonts/Roboto-Light.ttf') format('truetype'), url('./fonts/Roboto-Light.ttf') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('./fonts/Roboto-Black.ttf') format('truetype'), url('./fonts/Roboto-Black.ttf') format('woff');
+  font-weight: bolder;
+  font-style: bolder;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+  .container{
+      @apply max-w-[1400px] px-3 m-auto;
+  }
+  .font-light{
+      font-family: 'Roboto-Light';
+  }
+  .font-normal{
+      font-family: 'Roboto-Regular';
+  }
+  .font-bold{
+      font-family: 'Roboto-Bold';
+  }
+  .font-extrabold{
+    font-family: 'Roboto-Black';
+}
+}
+
+:root {
+  background-color: #FFFFFF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}

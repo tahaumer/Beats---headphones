@@ -1,0 +1,24 @@
+.headphoneAnimation{
+    animation: headphone 3s ease-in-out infinite;
+}
+
+@keyframes headphone {
+    0%{
+        transform: translateY(80px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+}
+.boxShadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.boxShadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.transitionCs{
+    transition: all 0.2s ease-in-out;
+}
